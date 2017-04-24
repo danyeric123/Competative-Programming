@@ -1,7 +1,3 @@
-/**
-	Template Version 1.0
-*/
-
 #include<bits/stdc++.h>
 using namespace::std;
 
