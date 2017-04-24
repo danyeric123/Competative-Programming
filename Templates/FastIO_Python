@@ -1,0 +1,5 @@
+from sys import stdin, stdout
+sys.setrecursionlimit(1500) 	//Increase Recursion Depth
+
+stdin.readline()				//To Read Input
+stdout.write( string )			//To Write Output
