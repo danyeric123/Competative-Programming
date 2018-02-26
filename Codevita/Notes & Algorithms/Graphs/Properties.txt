@@ -1,0 +1,54 @@
+					.Graph Theory.
+
+Property 1: (Eularian Walk) 
+	Seven Bridges of Konigsberg. (Ans = NO)
+	Visit all the vertices using an edge only once.
+	(Eulerian Walk)
+
+	The vertex that is not a start or an end vertex 
+	MUST have EVEN Edges.
+
+Property 2: (Eularian Walk)
+	If a graph has an Eularian walk, then the no of 
+	odd degree verties is either 0 or 2.
+
+Property 3: (Complete Graph)
+	A complete graph Kn on n vertices is a simple graph
+	with an edge between every pair of vertices.
+	|E| = nC2
+
+Property 4: (Biparatite Graph)
+ 	A graph whose vertex set can be partitioned into 2 sets
+ 	v1 and v2 such that every edge u-v in E has u in v1 
+ 	and v in v2.
+
+ 	Complete Biparatite graph represented as Kn,m 
+ 	where n = |v1| and m = |v2|
+
+ 	K1,n is known as STAR.
+
+Property 5: ( r - Regular)
+	A graph is r-Regular if deg(v) = r for all v in V.
+
+	Cycles are 2-Regular.
+	Paths are NOT regular.
+	Complete graph Kn has (n-1) regular.
+
+Property 6: (sum(deg))
+
+	The sum of the degrees =  2*(E) no. of edges. (undirected)
+	The sum of the degrees  = E no of edges. (directed)
+
+Property 7: (deg(odd) is Even)
+	
+	In any graph, there are even number of odd degree vertices.
+
+Property 8: 
+	
+	Every path is biparatite.!
+	1-2-3-4   (1,3) (2,4)
+	1-2-3-4-5 (1,3,5) (2,4)
+
+	Let V1,V2 are the set of vertices from V is a biparatite graph.
+	Then,
+	sum(v in deg(V1)) = sum(u in deg(V2))
