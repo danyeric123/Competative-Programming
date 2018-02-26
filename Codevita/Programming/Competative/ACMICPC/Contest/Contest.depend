@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1446667744 source:d:\competative\acmicpc\contest\main.cpp
+	<iostream>
+
+1477146690 source:d:\competative\acmicpc\contest\one.cpp
+	<bits/stdc++.h>
+
+1477150789 source:d:\competative\acmicpc\contest\two.cpp
+	<bits/stdc++.h>
+
+1481384785 source:d:\competative\acmicpc\contest\d.cpp
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<bits/stdc++.h>
+

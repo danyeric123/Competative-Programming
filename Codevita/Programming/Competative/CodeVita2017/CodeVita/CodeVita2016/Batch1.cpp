@@ -1,0 +1,206 @@
+{
+"graphset":[
+    {
+        "show-progress":true,
+        "gui":{
+            "behaviors":[
+                {
+                    "id":"ZoomIn",
+                    "enabled":"all"
+                },
+                {
+                    "id":"ZoomOut",
+                    "enabled":"all"
+                },
+                {
+                    "id":"ShowAll",
+                    "enabled":"all"
+                },
+                {
+                    "id":"ViewSource",
+                    "enabled":"all"
+                },
+                {
+                    "id":"BugReport",
+                    "enabled":"none"
+                },
+                {
+                    "id":"LogScale",
+                    "enabled":"none"
+                },
+                {
+                    "id":"LinScale",
+                    "enabled":"none"
+                },
+                {
+                    "id":"FullScreen",
+                    "enabled":"none"
+                },
+                {
+                    "id":"3D",
+                    "enabled":"none"
+                },
+                {
+                    "id":"ExportData",
+                    "enabled":"none"
+                },
+                {
+                    "id":"SaveAsImageJPG",
+                    "enabled":"none"
+                }
+            ],
+            "watermark":{
+                "type":1,
+                "position":"rb"
+            },
+            "history":{
+                "margin":"10 auto auto 10",
+                "width":30,
+                "height":22,
+                "padding":4,
+                "item":{
+                    "background-color":"#369",
+                    "border-width":1,
+                    "border-color":"#69c"
+                },
+                "item-off":{
+                    "background-color":"#eee",
+                    "border-color":"#ddd"
+                }
+            },
+            "progress":{
+                "color":"#000",
+                "background-color":"#fff"
+            },
+            "context-menu":{
+                "padding":"5 0",
+                "button":{
+                    "margin":"5 auto auto 5",
+                    "alpha":0,
+                    "width":40,
+                    "height":40,
+                    "background-color":"#333 #999",
+                    "border-radius":8
+                },
+                "gear":{
+                    "type":"hamburger",
+                    "alpha":1,
+                    "background-color":"#000"
+                },
+                "item":{
+                    "padding":"4 20 4 15",
+                    "color":"#fff",
+                    "background-color":"#6D6E71",
+                    "text-align":"left",
+                    "border-width":0,
+                    "border-color":"#6D6E71",
+                    "hover-state":{
+                        "background-color":"#58595B"
+                    },
+                    "font-size":"12px"
+                },
+                "border-width":0,
+                "border-color":"#6D6E71",
+                "visible":true,
+                "width":"125px",
+                "position":"left",
+                "background-color":"#6D6E71"
+            },
+            "context-menu[mobile]":{
+                "item":{
+                    "padding":"6 10 6 6"
+                }
+            }
+        },
+        "type":"bar",
+        "title":{
+            "adjust-layout":true,
+            "text":"Status wise breakup for each problem",
+            "font-size":14
+        },
+        "legend":{
+            "layout":"2x4",
+            "align":"center",
+            "vertical-align":"bottom"
+        },
+        "plot":{
+            "stacked":true,
+            "stack-type":"normal"
+        },
+        "scale-x":{
+            "values":["A","B","C","D","E","F","G","H"],
+            "label":{
+                "text":"Problems"
+            },
+            "tick":{
+                "visible":false
+            },
+            "zooming":1,
+            "item":{
+                "font-color":"#000",
+                "visible":true
+            },
+            "tooltip":{
+                "text":"%v"
+            },
+            "items-overlap":false
+        },
+        "scale-y":{
+            "label":{
+                "text":"Count of submissions"
+            }
+        },
+        "series":[
+            {
+                "values":[186,2135,224,null,28,15],
+                "text":"Accepted",
+                "background-color":"#008000",
+                "palette":0
+            },
+            {
+                "values":[8187,1442,168,19,null,92],
+                "text":"Presentation Error",
+                "background-color":"#FFD700",
+                "palette":1
+            },
+            {
+                "values":[6833,4763,2917,623,709,1689,137,452],
+                "text":"Wrong Answer",
+                "background-color":"#ff0000",
+                "palette":2
+            },
+            {
+                "values":[6107,3880,6411,1201,776,1695,535,995],
+                "text":"Compile Time Error",
+                "background-color":"#939393",
+                "palette":3
+            },
+            {
+                "values":[245,100,7345,50,42,50,19,62],
+                "text":"Time Limit Exceeded",
+                "background-color":"#ff6600",
+                "palette":4
+            },
+            {
+                "values":[23,8,400,null,7,10,null,18],
+                "text":"Memory Limit Exceeded",
+                "background-color":"#551A8B",
+                "palette":5
+            },
+            {
+                "values":[4130,2482,8578,185,427,698,86,433],
+                "text":"Runtime Error",
+                "background-color":"#1a1aff",
+                "palette":6
+            },
+            {
+                "values":[276,34,289,59,91,600,114,57],
+                "text":"Invalid Function",
+                "background-color":"#292929",
+                "palette":7
+            }
+        ]
+    }
+],
+"tween":null
+}
